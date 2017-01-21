@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{955ABD40-A3A3-4D6A-039F-FB498ABE8FD9}</ProjectGuid>
+    <ProjectGuid>{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -48,6 +48,7 @@
      <Compile Include="Assets\Follow.cs" />
      <Compile Include="Assets\FollowPlayer.cs" />
      <Compile Include="Assets\GenerateLevel.cs" />
+     <Compile Include="Assets\LightRange.cs" />
      <Compile Include="Assets\OnFloor.cs" />
      <Compile Include="Assets\PlayerMovement.cs" />
  <Reference Include="UnityEngine.UI">
