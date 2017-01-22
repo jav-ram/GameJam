@@ -4,8 +4,6 @@ using System.Collections;
 public class PlayerMovement : MonoBehaviour {
 	public float speed = 6f;
     public float scale;
-	public Collider2D enemie;
-	public Animator cameraAnimation;
 	public Rigidbody2D rb;
     public GameObject wave;
 
@@ -20,7 +18,6 @@ public class PlayerMovement : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		speed = 6f;
 		Move ();
 	}
 
@@ -66,12 +63,9 @@ public class PlayerMovement : MonoBehaviour {
             wave.transform.localScale = new Vector3(scale * .01f, scale * .01f, 0);
         }
 
-	}
 
-	void OnTriggerEnter2D(Collider2D other){
-		if (other.CompareTag ("Enemie")) {
-			Debug.Log ("Si Funca");
-			//cameraAnimation.Play ("GameOver");
-		}
+	}
+	void OnCollisionEnter2D(Collision2D other){
+		Debug.Log("hit");
 	}
 }

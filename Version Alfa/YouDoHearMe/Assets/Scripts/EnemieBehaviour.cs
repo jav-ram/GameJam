@@ -10,12 +10,12 @@ public class EnemieBehaviour : MonoBehaviour {
 		body = GetComponent<Rigidbody2D> ();
 		body.velocity = new Vector2 (3f,0);
 	}
-	
+
 	// Update is called once per frame
 	void FixedUpdate () {
-		
+
 	}
-	void OnTriggerExit2D(Collider2D other){
+	void OnTriggerEnter2D(){
 		if(body.gameObject.transform.localPosition.x > 0){
 			body.velocity = new Vector2 (-3f, 0);
 		}else if (body.gameObject.transform.localPosition.x < 0){
@@ -24,9 +24,5 @@ public class EnemieBehaviour : MonoBehaviour {
 
 	}
 
-	void OntriggerEnter2D(Collider2D col){
-		if(col.CompareTag ("Player")){
-			
-		}
-	}
+
 }
