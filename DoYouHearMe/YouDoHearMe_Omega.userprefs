@@ -1,0 +1,16 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\GameOverSceneBehaviour.cs">
+    <Files>
+      <File FileName="Assets\Scripts\PlayerAnim.cs" Line="5" Column="42" />
+      <File FileName="Assets\Scripts\PlayerMovement.cs" Line="24" Column="16" />
+      <File FileName="Assets\GameOver.cs" Line="51" Column="24" />
+      <File FileName="Assets\GameOverSceneBehaviour.cs" Line="7" Column="2" />
+      <File FileName="Assets\Scripts\Instruccion.cs" Line="50" Column="40" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

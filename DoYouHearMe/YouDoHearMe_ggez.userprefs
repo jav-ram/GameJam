@@ -1,0 +1,17 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\PlayStory.cs">
+    <Files>
+      <File FileName="Assets\GameOver.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Follow.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Win.cs" Line="1" Column="1" />
+      <File FileName="Assets\PlayWin.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Instruccion.cs" Line="1" Column="1" />
+      <File FileName="Assets\PlayStory.cs" Line="17" Column="19" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
